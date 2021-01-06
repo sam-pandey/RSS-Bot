@@ -1,0 +1,42 @@
+{
+  "name": "RSS to TG BOT",
+  "description": "A Telegram BOT that posts RSS feeds in Channels",
+  "keywords": [
+    "telegram",
+    "bor",
+    "rss",
+    "pyrogram",
+    "feedparser",
+    "productivity"
+  ],
+  "repository": "https://github.com/ikshwaku/RSSBOT",
+  "success_url": "https://t.me/sorry",
+  "website": "https:/github.com/ikshwaku/RSSBOT",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "get this value from @BotFather",
+      "value": ""
+    },
+    "CHANNEL_ID": {
+      "description": "should be an integer. ID of channel",
+      "value": ""
+    },
+    "FEED_URL": {
+      "description": "should be an valid feed url",
+      "value": "128",
+      "required": false
+    }
+}
+}
